@@ -1,0 +1,36 @@
+body {
+    background: white;
+}
+
+section, main, div, header {
+    border: solid 1px black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 175px 540px 1fr;
+    width: 870px;
+    margin: 0 auto;
+}
+
+.left {
+    display: grid;
+    grid-template-rows: 40px 40px 30px 100px 50px 50px;
+    grid-gap: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.middle {
+    display: grid;
+    grid-template-rows: 70px 1fr;
+}
+
+.boxes { 
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
