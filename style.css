@@ -34,3 +34,18 @@ main {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
 }
+
+.mid-col1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.mid-col2 {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.mid-col3 {
+    display: grid;
+    grid-template-rows: 1fr 100px;
+}
